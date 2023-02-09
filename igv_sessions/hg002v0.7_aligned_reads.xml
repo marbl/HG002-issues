@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr12_MATERNAL:125629501-125742067" nextAutoscaleGroup="11" version="8">
+    <Resources>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy.6.1.2remora_mat.Y.EBV/hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy.6.1.2remora_mat.Y.EBV/hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" type="bed"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" type="bed"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam" type="bam"/>
+    </Resources>
+    <Panel height="800" name="Panel1670599327372" width="1381">
+        <Track attributeKey="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="12" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam_junctions" maxdepth="50" name="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam Junctions" visible="false"/>
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1.pri.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam_coverage" name="hg002v0.7_hifi_dcv1.1.pri.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam" name="hg002v0.7_hifi_dcv1.1.pri.bam" visible="true">
+            <RenderOptions showInsertionMarkers="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1346" name="Panel1670600139497" width="1381">
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1.pri.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="12" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam_junctions" maxdepth="50" name="hg002v0.7_hifi_dcv1.1.pri.bam Junctions" visible="false"/>
+        <Track attributeKey="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam_coverage" name="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="180.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" name="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" visible="true">
+            <RenderOptions showInsertionMarkers="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1598" name="Panel1675966380017" width="1381">
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam_coverage" name="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="108.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam_junctions" maxdepth="50" name="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam Junctions" visible="false"/>
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam" name="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="2606" name="Panel1675966465886" width="1381">
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy.6.1.2remora_mat.Y.EBV/hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam_coverage" name="hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="164.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy.6.1.2remora_mat.Y.EBV/hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam_junctions" maxdepth="50" name="hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam Junctions" visible="false"/>
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy.6.1.2remora_mat.Y.EBV/hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam" name="hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="800" name="Panel1675969436761" width="1381">
+        <Track attributeKey="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam_coverage" name="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="51.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam_junctions" maxdepth="50" name="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam Junctions" visible="false"/>
+        <Track attributeKey="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam" name="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="120" name="FeaturePanel" width="1381">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" name="HiFi Pri Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7_ont_guppy_remora.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;15.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" name="ONT Pri Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7_k21_hybrid_error.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;41.0;255,255,255;0,0,0" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" name="Error" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.005607476635514018,0.15700934579439252,0.32242990654205606,0.502803738317757,0.702803738317757,0.9121495327102803"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
