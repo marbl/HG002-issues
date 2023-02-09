@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr12_MATERNAL:125627789-125740355" nextAutoscaleGroup="9" version="8">
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr11_MATERNAL:67384772-67498733" nextAutoscaleGroup="10" version="8">
     <Resources>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam" type="bam"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" type="bb"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/assemblygraph/v0.7_combined_graph_nodes.corr.bed" type="bed"/>
-        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.mat.strandseq.gt1000.ws.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.mat.strandseq.gap10000_gt1000.ws.bed" type="bed"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" type="bed"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" type="bed"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" type="bam"/>
@@ -25,7 +25,7 @@
     </Resources>
     <Panel height="600" name="DataPanel" width="1381">
         <Track attributeKey="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam_coverage" name="Hifi DCv1.1 Linked Binned Alignments" snpThreshold="0.2" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="51.0" minimum="0.0" type="LINEAR"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="32.0" minimum="0.0" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg002v0.7_DeepConsensus_15k+20k_recalled_v1.1" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,204,153" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.cov.wig" name="HiFi Pri" renderer="BAR_CHART" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
@@ -54,7 +54,7 @@
         <Track attributeKey="hg002v0.7_ont_guppy_remora.pri.markersandlength.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;95.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2_markerfiltered/hg002v0.7_ont_guppy_remora.pri.markersandlength.issues.bed" name="ONT Marker Issues" visible="true"/>
         <Track attributeKey="hg002v0.7_k21_hybrid_error.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;41.0;255,255,255;0,0,0" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" name="Error" visible="true"/>
     </Panel>
-    <Panel height="154" name="Panel1675957545769" width="1381">
+    <Panel height="212" name="Panel1675957545769" width="1381">
         <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam_junctions" maxdepth="50" name="hg002v0.7.haplotypemapping.pri.wm.bam Junctions" visible="false"/>
         <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" name="Alignment to ALT haplotype (WM2)" visible="true">
             <RenderOptions showMismatches="true"/>
@@ -62,18 +62,15 @@
         <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="7992000" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" name="Coordinates on ALT haplotype" visible="true"/>
         <Track attributeKey="v0.7_combined_graph_nodes.corr.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/assemblygraph/v0.7_combined_graph_nodes.corr.bed" name="Assembly Graph Nodes" visible="true"/>
     </Panel>
-    <Panel height="20" name="Panel1675969029053" width="1381">
-        <Track attributeKey="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_bin_ext/hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam_junctions" maxdepth="50" name="hg002v0.7_hifi_dc1.1_mergebinned.pri.sort.rg.bam Junctions" visible="false"/>
-    </Panel>
-    <Panel height="377" name="FeaturePanel" width="1381">
+    <Panel height="424" name="FeaturePanel" width="1381">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
         <Track attributeKey="hg002v0.7.hifi.alt_removed.flagger_v0.2.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;43.0;255,255,255;0,0,178" displayMode="EXPANDED" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/flagger/hg002v0.7.hifi.alt_removed.flagger_v0.2.bed" name="Flagger (HiFi)" visible="true"/>
         <Track attributeKey="hg002v0.7.ont.alt_removed.flagger_v0.2.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;61.0;255,255,255;0,0,178" displayMode="EXPANDED" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/flagger/hg002v0.7.ont.alt_removed.flagger_v0.2.bed" name="Flagger (ONT)" visible="true"/>
         <Track attributeKey="hg002.v0.7.mat.strandseq.sort.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="5120000" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.mat.strandseq.sort.bb" name="StrandSeq Switched SNVs (Ebert)" visible="true"/>
-        <Track attributeKey="hg002.v0.7.mat.strandseq.gt1000.ws.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.mat.strandseq.gt1000.ws.bed" name="StrandSeq Regions With Switched SNVs" visible="true"/>
         <Track attributeKey="v0.7_illumina_ext2.v0.7.both.100_20000.phased_block.switch.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/merqury/v0.7_illumina_ext2.v0.7.both.100_20000.phased_block.switch.bed" name="Merqury Linked-Illumina-Hapmer-Based Switches" visible="true"/>
+        <Track attributeKey="hg002.v0.7.mat.strandseq.gap10000_gt1000.ws.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.mat.strandseq.gap10000_gt1000.ws.bed" name="StrandSeq Regions with Multiple Switched SNVs" visible="true"/>
     </Panel>
-    <PanelLayout dividerFractions="0.5158878504672897,0.6345794392523364,0.6429906542056075"/>
+    <PanelLayout dividerFractions="0.39626168224299063,0.5990654205607476"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
