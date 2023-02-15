@@ -4,7 +4,7 @@ In this directory we'll keep PDF-formatted manuals and documentation of
 available data.
 
 ## Resources
-* Tips and tricks for [evaluating regions using IGV](https://github.com/marbl/HG002-issues/blob/main/manuals/EvaluatingWithIGV.pdf)
-* A list of available [data for viewing in IGV](https://github.com/marbl/HG002-issues/blob/main/manuals/DescriptionOfAWSHostedIGVTracks.pdf)
-* Guidelines for curating regions flagged for [coverage anomalies](https://github.com/marbl/HG002-issues/blob/main/manuals/CoverageAnomalyPolishingInstructions.pdf)
-* Guidelines for curating regions with [potential phase switch errors](https://github.com/marbl/HG002-issues/blob/main/manuals/PhaseSwitchAnomalyPolishingInstructions.pdf)
+* Tips and tricks for evaluating regions using IGV [Google](https://docs.google.com/document/d/19OCsywzF_v7SxzS8njvs1qJosTLFqwn0VVJFla93Ir0) [GitHub](https://github.com/marbl/HG002-issues/blob/main/manuals/EvaluatingWithIGV.pdf)
+* A list of available data for viewing in IGV [Google](https://docs.google.com/document/d/19jhy19crbqwewexQ0UoknsPXYEs_XjNI7GwCQO5TEns) [GitHub](https://github.com/marbl/HG002-issues/blob/main/manuals/DescriptionOfAWSHostedIGVTracks.pdf)
+* Guidelines for curating regions flagged for coverage anomalies [Google](https://docs.google.com/document/d/1lef3T5wdFdw4_m8oxCNkvRicckC8qZfoCbrM6Hjz9z8) [GitHub](https://github.com/marbl/HG002-issues/blob/main/manuals/CoverageAnomalyPolishingInstructions.pdf)
+* Guidelines for curating regions with potential phase switch errors [Google](https://docs.google.com/document/d/1_gHoxjoaDOavROWHtTXFVr5F2E6xw-bwxFAlIk39724) [GitHub](https://github.com/marbl/HG002-issues/blob/main/manuals/PhaseSwitchAnomalyPolishingInstructions.pdf)
