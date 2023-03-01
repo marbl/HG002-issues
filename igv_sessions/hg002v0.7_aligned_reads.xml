@@ -5,6 +5,7 @@
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy.6.1.2remora_mat.Y.EBV/hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy.6.1.2remora_mat.Y.EBV/hg002v0.7.mat.Y.EBV_ont_guppy_6.1.2.pri.bam" type="bam"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" type="bed"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam" type="bam"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" type="bed"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" type="bed"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam" type="bam"/>
@@ -20,11 +21,19 @@
         </Track>
     </Panel>
     <Panel height="1346" name="Panel1670600139497" width="1381">
-        <Track attributeKey="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam_coverage" name="ONT All to Both Haps Pri Coverage" snpThreshold="0.2" visible="true">
+        <Track attributeKey="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam_coverage" name="ONT R9 All to Both Haps Pri Coverage" snpThreshold="0.2" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="180.0" minimum="0.0" type="LINEAR"/>
         </Track>
-        <Track attributeKey="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" name="ONT All to Both Haps Pri (85x haploid)" visible="true">
-            <RenderOptions hideSmallIndels="true" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        <Track attributeKey="hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_guppy6.1.2remora/hg002v0.7_ont_guppy_6.1.2_remora.pri.bam" name="ONT R9 All to Both Haps Pri (85x haploid)" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="1346" name="Panel2670600139497" width="1381">
+        <Track attributeKey="hg002v0.7_ont_r10_ul.pri.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam_coverage" name="ONT R10 All to Both Haps Pri Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="180.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_ont_r10_ul.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam" name="ONT R10 All to Both Haps Pri (??x haploid)" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
     </Panel>
     <Panel height="1598" name="Panel1675966380017" width="1381">
