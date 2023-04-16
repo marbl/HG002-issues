@@ -24,7 +24,7 @@
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg002v0.7_hifi_dcv1.1.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.bam" name="HiFi All to Both Haps Pri (35x haploid)" visible="true">
-            <RenderOptions showInsertionMarkers="false"/>
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
     </Panel>
     <Panel height="1598" name="Panel1675966380017" width="1381">
