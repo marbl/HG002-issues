@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr9_MATERNAL:39108377-39143637" nextAutoscaleGroup="11" version="8">
+    <Resources>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" type="bb"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/assemblygraph/v0.7_combined_graph_nodes.corr.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.strandseq.cont_1000.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" type="bed"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_pat_hapmer.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.cov.wig" type="wig"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/merqury/v0.7_illumina_ext2.v0.7.both.100_20000.phased_block.switch.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/flagger/hg002v0.7.hifi.alt_removed.flagger_v0.2.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1_markerfiltered/hg002v0.7_hifi_dcv1.1.markersandlength.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_mat_hapmer.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/flagger/hg002v0.7.ont.alt_removed.flagger_v0.2.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/marker/hg002v0.7.k21.marker.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.cov.wig" type="wig"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.strandseq.sort.bb" type="bb"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2_markerfiltered/hg002v0.7_ont_guppy_remora.pri.markersandlength.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2_markerfiltered/hg002v0.7_ont_guppy_remora.pri.markersandlength.cov.wig" type="wig"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1_markerfiltered/hg002v0.7_hifi_dcv1.1.markersandlength.cov.wig" type="wig"/>
+    </Resources>
+    <Panel height="736" name="DataPanel" width="1464">
+        <Track attributeKey="hg002v0.7_DeepConsensus_15k+20k_recalled_v1.1" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,204,153" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.cov.wig" name="HiFi Pri" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" height="40" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" name="HiFi Pri Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,51" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1_markerfiltered/hg002v0.7_hifi_dcv1.1.markersandlength.cov.wig" name="HiFi Marker" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1.markersandlength.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;53.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" height="40" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1_markerfiltered/hg002v0.7_hifi_dcv1.1.markersandlength.issues.bed" name="HiFi Marker Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7.k21.marker.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="102,102,102" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/marker/hg002v0.7.k21.marker.bw" name="Marker" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="21.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_k21_mat_hapmer.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,51" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_mat_hapmer.bw" name="MAT" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="21.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_k21_pat_hapmer.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,51,153" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_pat_hapmer.bw" name="PAT" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="21.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_guppy_6_1_2_remora" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="51,204,255" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.cov.wig" name="ONT Pri" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="180.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_ont_guppy_remora.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;15.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" name="ONT Pri Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7_ont_guppy_remora" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="51,153,255" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2_markerfiltered/hg002v0.7_ont_guppy_remora.pri.markersandlength.cov.wig" name="ONT Marker" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="180.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_ont_guppy_remora.pri.markersandlength.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;95.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2_markerfiltered/hg002v0.7_ont_guppy_remora.pri.markersandlength.issues.bed" name="ONT Marker Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7_k21_hybrid_error.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;41.0;255,255,255;0,0,0" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" name="Error" visible="true"/>
+    </Panel>
+    <Panel height="256" name="Panel1675957545769" width="1464">
+        <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" name="ALT haplotype" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+        <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" clazz="org.broad.igv.track.FeatureTrack" color="102,102,102" colorScale="ContinuousColorScale;0.0;2.673717737197876;255,255,255;0,0,178" featureVisibilityWindow="0" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" name="Coordinates on ALT haplotype" visible="true"/>
+        <Track attributeKey="v0.7_combined_graph_nodes.corr.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;9.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/assemblygraph/v0.7_combined_graph_nodes.corr.bed" name="Assembly Graph Nodes" visible="true"/>
+    </Panel>
+    <Panel height="359" name="FeaturePanel" width="1464">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="hg002v0.7.hifi.alt_removed.flagger_v0.2.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;43.0;255,255,255;0,0,178" displayMode="EXPANDED" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/flagger/hg002v0.7.hifi.alt_removed.flagger_v0.2.bed" name="Flagger (HiFi)" visible="true"/>
+        <Track attributeKey="hg002v0.7.ont.alt_removed.flagger_v0.2.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;61.0;255,255,255;0,0,178" displayMode="EXPANDED" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/flagger/hg002v0.7.ont.alt_removed.flagger_v0.2.bed" name="Flagger (ONT)" visible="true"/>
+        <Track attributeKey="hg002.v0.7.strandseq.sort.bb" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;1.0;255,255,255;0,0,178" featureVisibilityWindow="5120000" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.strandseq.sort.bb" name="StrandSeq Switched SNVs (Ebert)" visible="true"/>
+        <Track attributeKey="v0.7_illumina_ext2.v0.7.both.100_20000.phased_block.switch.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/merqury/v0.7_illumina_ext2.v0.7.both.100_20000.phased_block.switch.bed" name="Merqury Linked-Illumina-Hapmer-Based Switches" visible="true"/>
+        <Track attributeKey="hg002.v0.7.strandseq.cont_1000.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/phasing/strandseq/hg002.v0.7.strandseq.cont_1000.bed" name="StrandSeq Regions with Multiple Switched SNVs" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.541452677916361,0.7329420396184886"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
