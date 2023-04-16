@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr12_MATERNAL:125629501-125639067" nextAutoscaleGroup="11" version="8">
+    <Resources>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_duplex_mat.Y.EBV/hg002v0.7mat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_duplex_mat.Y.EBV/hg002v0.7mat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" type="bed"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_UL_mat.Y.EBV/hg002v0.7.mat_ont_r10_UL_260bps.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_UL_mat.Y.EBV/hg002v0.7.mat_ont_r10_UL_260bps.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" type="bed"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam" type="bam"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam.csi" path="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" type="bam"/>
+    </Resources>
+    <Panel height="1598" name="Panel1675966380017" width="1381">
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam_coverage" name="HiFi All to Maternal Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="108.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_mat.Y.EBV/hg002v0.7.mat.Y.EBV_hifi_dc1.1.pri.bam" name="HiFi All to Maternal (70x diploid)" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="1598" name="Panel1675956380017" width="1381">
+        <Track attributeKey="hg002v0.7mat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_duplex_mat.Y.EBV/hg002v0.7mat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam_coverage" name="ONT R10 Duplex All to Separate Haps Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="108.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7mat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_duplex_mat.Y.EBV/hg002v0.7mat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam" name="ONT R10 Duplex All to Separate Haps (70x diploid)" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="1598" name="Panel1675956381017" width="1381">
+        <Track attributeKey="hg002v0.7.mat_ont_r10_UL_260bps.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_UL_mat.Y.EBV/hg002v0.7.mat_ont_r10_UL_260bps.bam_coverage" name="ONT R10 UL Simplex All to Separate Haps Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="108.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7.mat_ont_r10_UL_260bps.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_UL_mat.Y.EBV/hg002v0.7.mat_ont_r10_UL_260bps.bam" name="ONT R10 UL Simplex All to Separate Haps (70x diploid)" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="1346" name="Panel2670600139497" width="1381">
+        <Track attributeKey="hg002v0.7_ont_r10_ul.pri.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam_coverage" name="ONT R10 All to Both Haps Pri Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="180.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7_ont_r10_ul.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam" name="ONT R10 All to Both Haps Pri (??x haploid)" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="800" name="Panel2675969436761" width="1381">
+        <Track attributeKey="HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam_coverage" name="element-PCR-free_2x150_100X Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="51.0" minimum="0.0" type="LINEAR"/>
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+        <Track attributeKey="HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" name="element-PCR-free_2x150_100X" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="120" name="FeaturePanel" width="1381">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="hg002v0.7_hifi_dcv1.1.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" name="HiFi Pri Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7_ont_guppy_remora.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;15.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" name="ONT Pri Issues" visible="true"/>
+        <Track attributeKey="hg002v0.7_k21_hybrid_error.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;41.0;255,255,255;0,0,0" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.7_k21_hybrid_error.bed" name="Error" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.005607476635514018,0.15700934579439252,0.32242990654205606,0.502803738317757,0.702803738317757,0.9121495327102803"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
