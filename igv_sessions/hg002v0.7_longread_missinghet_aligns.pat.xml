@@ -10,6 +10,8 @@
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" type="bed"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_all_to_one/hg002v0.7.allreads2sephaps_hifi_dc1.1.sort.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_all_to_one/hg002v0.7.allreads2sephaps_hifi_dc1.1.sort.bam" type="bam"/>
         <Resource index="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam.csi" path="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" type="bb"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" type="bam"/>
     </Resources>
     <Panel height="1346" name="Panel2670600139497" width="1381">
         <Track attributeKey="hg002v0.7_ont_r10_ul.pri.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam_coverage" name="ONT R10 All to Both Haps Pri Coverage" snpThreshold="0.2" visible="true">
@@ -59,6 +61,12 @@
         <Track attributeKey="HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" name="element-PCR-free_2x150_100X" visible="true">
             <RenderOptions/>
         </Track>
+    </Panel>
+    <Panel height="256" name="Panel1675957545769" width="1381">
+        <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" name="ALT haplotype" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+        <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" clazz="org.broad.igv.track.FeatureTrack" color="102,102,102" colorScale="ContinuousColorScale;0.0;2.673717737197876;255,255,255;0,0,178" featureVisibilityWindow="0" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" name="Coordinates on ALT haplotype" visible="true"/>
     </Panel>
     <Panel height="120" name="FeaturePanel" width="1381">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
