@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr12_MATERNAL:125629501-125639067" nextAutoscaleGroup="11" version="8">
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr12_PATERNAL:125629501-125639067" nextAutoscaleGroup="11" version="8">
     <Resources>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_duplex_pat.X.EBV/hg002v0.7pat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_duplex_pat.X.EBV/hg002v0.7pat_ont_r10_duplex_dorando_0.11.1_splitduplex.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_ul_merge/hg002v0.7_ont_r10_ul.pri.bam" type="bam"/>
@@ -9,7 +9,7 @@
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.issues.bed" type="bed"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/ont_gr6.1.2/hg002v0.7_ont_guppy_remora.pri.issues.bed" type="bed"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_all_to_one/hg002v0.7.allreads2sephaps_hifi_dc1.1.sort.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_all_to_one/hg002v0.7.allreads2sephaps_hifi_dc1.1.sort.bam" type="bam"/>
-        <Resource index="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam.csi" path="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" type="bam"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/HG002-element-100X/alignments/v0.7pat_HG002-element-PCR-free_2x150_100X.bam.csi" path="https://giab-data.s3.amazonaws.com/HG002-element-100X/alignments/v0.7pat_HG002-element-PCR-free_2x150_100X.bam" type="bam"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.withsimscores.bb" type="bb"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" type="bam"/>
     </Resources>
@@ -54,11 +54,11 @@
         </Track>
     </Panel>
     <Panel height="800" name="Panel2675969436761" width="1381">
-        <Track attributeKey="HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam_coverage" name="element-PCR-free_2x150_100X Coverage" snpThreshold="0.2" visible="true">
+        <Track attributeKey="v0.7pat_HG002-element-PCR-free_2x150_100X.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://giab-data.s3.amazonaws.com/HG002-element-100X/alignments/v0.7pat_HG002-element-PCR-free_2x150_100X.bam_coverage" name="element-PCR-free_2x150_100X Coverage" snpThreshold="0.2" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="51.0" minimum="0.0" type="LINEAR"/>
             <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
-        <Track attributeKey="HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://giab-data.s3.amazonaws.com/elementbio/HG002T2Tv0.7/HG002T2Tv0.7_HG002-element-PCR-free_2x150_100X.bam" name="element-PCR-free_2x150_100X" visible="true">
+        <Track attributeKey="v0.7pat_HG002-element-PCR-free_2x150_100X.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://giab-data.s3.amazonaws.com/HG002-element-100X/alignments/v0.7pat_HG002-element-PCR-free_2x150_100X.bam" name="element-PCR-free_2x150_100X" visible="true">
             <RenderOptions/>
         </Track>
     </Panel>
