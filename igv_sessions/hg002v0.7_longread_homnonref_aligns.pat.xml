@@ -50,7 +50,7 @@
             <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
         <Track attributeKey="v0.7pat_HG002-element-PCR-free_2x150_100X.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://giab-data.s3.amazonaws.com/HG002-element-100X/alignments/v0.7pat_HG002-element-PCR-free_2x150_100X.bam" name="element-PCR-free_2x150_100X" visible="true">
-            <RenderOptions/>
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
     </Panel>
     <Panel height="120" name="FeaturePanel" width="1381">
