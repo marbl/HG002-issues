@@ -1,75 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr19_PATERNAL:42314433-42314473" nextAutoscaleGroup="2" version="8">
     <Resources>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/parentfiltered/onso/proposed_pat_changes_highconf.final.vcf.gz" type="vcf"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg002_broad_pairedend.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg002_broad_pairedend.bam" type="bam"/>
-        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam" type="bam"/>
-        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/GATK/onso_trio.indels_mat.vcf.gz" type="vcf"/>
-        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg3vhg2pat.pair.hap1inherited.nohap2.v2.bed" type="bed"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg004_broad_pairedend.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg004_broad_pairedend.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap1inherited.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap1inherited.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap2inherited.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap2inherited.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg3vhg2pat.pair.hap1inherited.nohap2.v2.bed" type="bed"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg3vhg2pat.pair.hap2inherited.nohap1.v2.bed" type="bed"/>
     </Resources>
-    <Panel height="96" name="OnsoTrioVars" width="1111">
-        <Track attributeKey="onso_trio.indels_mat.vcf.gz" clazz="org.broad.igv.variant.VariantTrack" displayMode="EXPANDED" featureVisibilityWindow="99700" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/GATK/onso_trio.indels_mat.vcf.gz" name="onso_trio.indels_mat.vcf.gz" siteColorMode="ALLELE_FREQUENCY" visible="true"/>
+    <Panel height="88" name="OnsoTrioVars" width="1111">
+        <Track attributeKey="proposed_pat_changes_highconf.final.vcf.gz" clazz="org.broad.igv.variant.VariantTrack" displayMode="EXPANDED" featureVisibilityWindow="99700" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/parentfiltered/onso/proposed_pat_changes_highconf.final.vcf.gz" name="Onso Mendel-filtered variants" siteColorMode="ALLELE_FREQUENCY" visible="true"/>
     </Panel>
-    <Panel height="268" name="Panel1684955540933" width="1111">
-        <Track attributeKey="hg002_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg002_broad_pairedend.bam_coverage" name="hg002_broad_pairedend.bam Coverage" snpThreshold="0.3" visible="true">
+    <Panel height="338" name="Panel1684955540933" width="1111">
+        <Track attributeKey="hg002_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg002_broad_pairedend.bam_coverage" name="hg002 Broad Coverage" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
-        <Track attributeKey="hg002_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg002_broad_pairedend.bam" name="hg002_broad_pairedend.bam" visible="true">
-            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
-        </Track>
-    </Panel>
-    <Panel height="424" name="Panel1684955552213" width="1111">
-        <Track attributeKey="hg003_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam_coverage" name="hg003_broad_pairedend.bam Coverage" snpThreshold="0.3" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
-        </Track>
-        <Track attributeKey="hg003_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam_coverage" name="hg003_broad_pairedend.bam Coverage" snpThreshold="0.3" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
-        </Track>
-        <Track attributeKey="hg003_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam" name="hg003_broad_pairedend.bam" visible="true">
-            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
-        </Track>
-        <Track attributeKey="hg003_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam" name="hg003_broad_pairedend.bam" visible="true">
+        <Track attributeKey="hg002_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg002_broad_pairedend.bam" name="hg002 Broad paired end reads" visible="true">
             <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
     </Panel>
-    <Panel height="424" name="Panel1684955563150" width="1111">
-        <Track attributeKey="hg003_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam_coverage" name="hg003_broad_pairedend.bam Coverage" snpThreshold="0.3" visible="true">
+    <Panel height="408" name="Panel1684955563150" width="1111">
+        <Track attributeKey="hg003_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam_coverage" name="hg003 Broad Coverage" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
-        <Track attributeKey="hg003_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam_coverage" name="hg003_broad_pairedend.bam Coverage" snpThreshold="0.3" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
-        </Track>
-        <Track attributeKey="hg003_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam" name="hg003_broad_pairedend.bam" visible="true">
+        <Track attributeKey="hg003_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam" name="hg003 (pat) Broad paired end reads" visible="true">
             <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
-        <Track attributeKey="hg003_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg003_broad_pairedend.bam" name="hg003_broad_pairedend.bam" visible="true">
+    </Panel>
+    <Panel height="310" name="Panel1684955552213" width="1111">
+        <Track attributeKey="hg004_broad_pairedend.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg004_broad_pairedend.bam_coverage" name="hg004 Broad Coverage" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg004_broad_pairedend.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/onso_trio/pat/hg004_broad_pairedend.bam" name="hg004 (mat) Broad paired end reads" visible="true">
             <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
     </Panel>
     <Panel height="61" name="Panel1686590557886" width="1111">
-        <Track attributeKey="hg002v0.7.hg003.hap1inherited.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap1inherited.bam" name="hg002v0.7.hg003.hap1inherited.bam" visible="true">
+        <Track attributeKey="hg002v0.7.hg003.hap1inherited.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap1inherited.bam" name="hg003 (pat) hifiasm hap1" visible="true">
             <RenderOptions hideSmallIndels="false"/>
         </Track>
     </Panel>
     <Panel height="61" name="Panel2686590557886" width="1111">
-        <Track attributeKey="hg002v0.7.hg003.hap2inherited.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap2inherited.bam" name="hg002v0.7.hg003.hap2inherited.bam" visible="true">
+        <Track attributeKey="hg002v0.7.hg003.hap2inherited.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.hg003.hap2inherited.bam" name="hg003 (pat) hifiasm hap2" visible="true">
             <RenderOptions hideSmallIndels="false"/>
         </Track>
     </Panel>
     <Panel height="61" name="Panel3686590557886" width="1111">
-        <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" name="hg002v0.7.haplotypemapping.pri.wm.bam" visible="true">
+        <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" name="hg002 v0.7 alternate (maternal) haplotype" visible="true">
             <RenderOptions hideSmallIndels="false"/>
         </Track>
     </Panel>
-    <Panel height="113" name="FeaturePanel" width="1111">
-        <Track attributeKey="hg3vhg2pat.pair.hap1inherited.nohap2.v2.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg3vhg2pat.pair.hap1inherited.nohap2.v2.bed" name="hg3vhg2pat.pair.hap1inherited.nohap2.v2.bed" visible="true"/>
-        <Track attributeKey="hg3vhg2pat.pair.hap2inherited.nohap1.v2.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg3vhg2pat.pair.hap2inherited.nohap1.v2.bed" name="hg3vhg2pat.pair.hap2inherited.nohap1.v2.bed" visible="true"/>
+    <Panel height="112" name="FeaturePanel" width="1111">
+        <Track attributeKey="hg3vhg2pat.pair.hap1inherited.nohap2.v2.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg3vhg2pat.pair.hap1inherited.nohap2.v2.bed" name="hg003 (pat) hifiasm hap1 inherited" visible="true"/>
+        <Track attributeKey="hg3vhg2pat.pair.hap2inherited.nohap1.v2.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg3vhg2pat.pair.hap2inherited.nohap1.v2.bed" name="hg003 (pat) hifiasm hap2 inherited" visible="true"/>
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
     </Panel>
-    <PanelLayout dividerFractions="0.007989347536617843,0.14247669773635152,0.3288948069241012,0.4873501997336884,0.6431424766977364,0.7137150466045273,0.7749667110519307,0.8428761651131824"/>
+    <PanelLayout dividerFractions="0.007989347536617843,0.1318242343541944,0.3022636484687084,0.47536617842876167,0.6311584553928096,0.6964047936085219,0.7656458055925432,0.844207723035952"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
