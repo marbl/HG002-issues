@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.7.fasta" locus="chr19_PATERNAL:42314432-42314473" nextAutoscaleGroup="2" version="8">
+    <Resources>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/parentfiltered/element/hg2elementhet01.commonheader.vcf.gz" type="vcf"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/parentfiltered/element/hg2elementhet12.commonheader.vcf.gz" type="vcf"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-lrg-ins_element.bam.bai" path="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-lrg-ins_element.bam" type="bam"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-std-ins_element.bam.bai" path="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-std-ins_element.bam" type="bam"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-std-ins_element.bam.bai" path="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-std-ins_element.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" type="bam"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-std-ins_element.bam.bai" path="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-std-ins_element.bam" type="bam"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-lrg-ins_element.bam.bai" path="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-lrg-ins_element.bam" type="bam"/>
+        <Resource index="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-lrg-ins_element.bam.bai" path="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-lrg-ins_element.bam" type="bam"/>
+    </Resources>
+    <Panel height="70" name="ElementTrioVars" width="1111">
+        <Track attributeKey="hg2elementhet01.commonheader.vcf.gz" clazz="org.broad.igv.variant.VariantTrack" displayMode="EXPANDED" featureVisibilityWindow="99700" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/parentfiltered/element/hg2elementhet01.commonheader.vcf.gz" name="Element 0/1 parent-assembly-filtered variants" siteColorMode="ALLELE_FREQUENCY" visible="true"/>
+        <Track attributeKey="hg2elementhet12.commonheader.vcf.gz" clazz="org.broad.igv.variant.VariantTrack" displayMode="EXPANDED" featureVisibilityWindow="99700" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/parentfiltered/element/hg2elementhet12.commonheader.vcf.gz" name="Element 1/2 parent-assembly-filtered variants" siteColorMode="ALLELE_FREQUENCY" visible="true"/>
+    </Panel>
+    <Panel height="650" name="Panel1684955540933" width="1111">
+        <Track attributeKey="v0.7pat_HG002-lrg-ins_element.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-lrg-ins_element.bam_coverage" name="hg002 Element large insert coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v0.7pat_HG002-lrg-ins_element.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-lrg-ins_element.bam" name="hg002 Element large insert reads" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="650" name="Panel1684955563150" width="1111">
+        <Track attributeKey="v0.7pat_HG003-lrg-ins_element.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-lrg-ins_element.bam_coverage" name="hg003 Element large insert coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v0.7pat_HG003-lrg-ins_element.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-lrg-ins_element.bam" name="hg003 Element large insert reads" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="650" name="Panel1684955552213" width="1111">
+        <Track attributeKey="v0.7pat_HG004-lrg-ins_element.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-lrg-ins_element.bam_coverage" name="hg004 Element large insert coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v0.7pat_HG004-lrg-ins_element.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-lrg-ins_element.bam" name="hg004 Element large insert reads" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="650" name="Panel1684955550933" width="1111">
+        <Track attributeKey="v0.7pat_HG002-std-ins_element.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-std-ins_element.bam_coverage" name="hg002 Element std insert coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v0.7pat_HG002-std-ins_element.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG002-std-ins_element.bam" name="hg002 Element std insert reads" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="650" name="Panel1684955573150" width="1111">
+        <Track attributeKey="v0.7pat_HG003-std-ins_element.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-std-ins_element.bam_coverage" name="hg003 Element std insert coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v0.7pat_HG003-std-ins_element.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG003-std-ins_element.bam" name="hg003 Element std insert reads" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="650" name="Panel1684955562213" width="1111">
+        <Track attributeKey="v0.7pat_HG004-std-ins_element.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-std-ins_element.bam_coverage" name="hg004 Element std insert coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v0.7pat_HG004-std-ins_element.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="12" id="https://giab-data.s3.amazonaws.com/element-ajtrio-2023-05/alignments/v0.7pat_HG004-std-ins_element.bam" name="hg004 Element std insert reads" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
+        </Track>
+    </Panel>
+    <Panel height="61" name="Panel3686590557886" width="1111">
+        <Track attributeKey="hg002v0.7.haplotypemapping.pri.wm.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/haplotypes/mapping/hg002v0.7.haplotypemapping.pri.wm.bam" name="hg002 v0.7 alternate (paternal) haplotype" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="28" name="FeaturePanel" width="1111">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.007989347536617843,0.10652463382157124,0.2529960053262317,0.40878828229027964,0.5539280958721704,0.6724367509986684,0.7989347536617842,0.9027962716378163,0.9560585885486018"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
