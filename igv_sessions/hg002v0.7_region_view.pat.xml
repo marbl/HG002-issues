@@ -8,6 +8,7 @@
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.cov.wig" type="wig"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_pat.X.EBV/hg002v0.7.pat.X.EBV_hifi_dc1.1.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/hifi_dc1.1_pat.X.EBV/hg002v0.7.pat.X.EBV_hifi_dc1.1.pri.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/chainfiles/v0.7_vs_v0.8.vcf.gz.tbi" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/variants/chainfiles/v0.7_vs_v0.8.vcf.gz" type="vcf"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ssr/v0.7patX_SSR.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ssr/v0.7patX_SSR.bam" type="bam"/>
     </Resources>
     <Panel height="100" name="DataPanel" width="1133">
         <Track attributeKey="hg002v0.7_DeepConsensus_15k+20k_recalled_v1.1" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,204,153" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/wigfiles/hifi_dc1.1/hg002v0.7_hifi_dcv1.1.pri.cov.wig" name="HiFi Pri" renderer="BAR_CHART" visible="true" windowFunction="mean">
@@ -52,6 +53,14 @@
         <Track attributeKey="hg002v0.7.pat_ont_r10_UL_260bps.pri.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_UL_pat.X.EBV/hg002v0.7.pat_ont_r10_UL_260bps.pri.bam_junctions" maxdepth="50" name="ONT R10 UL 260 All to Pat Junctions" visible="false"/>
         <Track attributeKey="hg002v0.7.pat_ont_r10_UL_260bps.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ont_r10_UL_pat.X.EBV/hg002v0.7.pat_ont_r10_UL_260bps.pri.bam" name="ONT R10 UL 260 All to Pat" visible="true">
             <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="576" name="Panel1288101336287" width="1133">
+        <Track attributeKey="v0.7patX_SSR.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ssr/v0.7patX_SSR.bam_coverage" name="SBB Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="51.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.7patX_SSR.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.7/mapping/ssr/v0.7patX_SSR.bam" name="SBB all to maternal" visible="true">
+            <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
     </Panel>
     <PanelLayout dividerFractions="0.10869565217391304,0.18286445012787725,0.38618925831202044,0.5677749360613811,0.7557544757033248,0.9322250639386189"/>
