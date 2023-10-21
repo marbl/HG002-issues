@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v0.9.fasta" locus="chr15_MATERNAL:69997697-70006192" nextAutoscaleGroup="11" version="8">
+    <Resources>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.9_k21_hybrid_error.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.9/wigfiles/hifi_dc1.1/hg002v0.9_hifi_dcv1.1.pri.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.9_k21_pat_hapmer.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.9/wigfiles/hifi_dc1.1/hg002v0.9_hifi_dcv1.1.pri.cov.wig" type="wig"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.9_k21_mat_hapmer.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/marker/hg002v0.9.k21.marker.bw" type="bw"/>
+    </Resources>
+    <Panel height="443" name="DataPanel" width="1133">
+        <Track attributeKey="hg002v0.9_DeepConsensus_15k+20k_recalled_v1.1" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,204,153" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.9/wigfiles/hifi_dc1.1/hg002v0.9_hifi_dcv1.1.pri.cov.wig" name="HiFi Pri" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.9_hifi_dcv1.1.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" height="40" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v0.9/wigfiles/hifi_dc1.1/hg002v0.9_hifi_dcv1.1.pri.issues.bed" name="HiFi Pri Issues" visible="true"/>
+        <Track attributeKey="hg002v0.9.k21.marker.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="102,102,102" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/marker/hg002v0.9.k21.marker.bw" name="Marker" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="21.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.9_k21_mat_hapmer.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,51" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.9_k21_mat_hapmer.bw" name="MAT" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="21.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.9_k21_pat_hapmer.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,51,153" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.9_k21_pat_hapmer.bw" name="PAT" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="21.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v0.9_k21_hybrid_error.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;41.0;255,255,255;0,0,0" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v0.9_k21_hybrid_error.bed" name="Error" visible="true"/>
+    </Panel>
+    <Panel height="284" name="FeaturePanel" width="1133">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.5973154362416108,0.7328859060402685"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
