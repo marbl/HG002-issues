@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v1.0.fasta" locus="chr11_MATERNAL:54686018-54690413" nextAutoscaleGroup="4" version="8">
+    <Resources>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_illumina2x250.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_illumina2x250.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins500_600.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins500_600.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins500_600.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins500_600.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins1000.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins1000.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_illumina2x250.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_illumina2x250.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins1000.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins1000.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins1000.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins1000.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_illumina2x250.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_illumina2x250.dedup.bam" type="bam"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins500_600.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins500_600.dedup.bam" type="bam"/>
+    </Resources>
+    <Panel height="912" name="Panel1689782059395" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg002_element_ins1000.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins1000.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg002_element_ins1000.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="59.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg002_element_ins1000.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins1000.dedup.bam" name="Element Ins1000 HG002" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1598" name="Panel1685782059395" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg002_element_ins500_600.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins500_600.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg002_element_ins500_600.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="85.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg002_element_ins500_600.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_element_ins500_600.dedup.bam" name="Element Ins500-600 HG002" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1794" name="Panel1682782059395" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg002_illumina2x250.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_illumina2x250.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg002_illumina2x250.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="104.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg002_illumina2x250.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg002_illumina2x250.dedup.bam" name="Illumina 2x250 HG002" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="842" name="Panel1689752059395" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg003_element_ins1000.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins1000.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg003_element_ins1000.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="52.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg003_element_ins1000.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins1000.dedup.bam" name="Element Ins1000 HG003" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1598" name="Panel1685782059394" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg003_element_ins500_600.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins500_600.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg003_element_ins500_600.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="106.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg003_element_ins500_600.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_element_ins500_600.dedup.bam" name="Element Ins500-600 HG003" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1332" name="Panel1682782059393" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg003_illumina2x250.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_illumina2x250.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg003_illumina2x250.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="87.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg003_illumina2x250.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg003_illumina2x250.dedup.bam" name="Illumina 2x250 HG003" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="982" name="Panel1689782159395" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg004_element_ins1000.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins1000.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg004_element_ins1000.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="59.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg004_element_ins1000.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins1000.dedup.bam" name="Element Ins1000 HG004" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1640" name="Panel1685782359395" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg004_element_ins500_600.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins500_600.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg004_element_ins500_600.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="97.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg004_element_ins500_600.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/element_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_element_ins500_600.dedup.bam" name="Element Ins500-600 HG004" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="1472" name="Panel1682782559395" width="1133">
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg004_illumina2x250.dedup.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_illumina2x250.dedup.bam_coverage" name="hg002v1.0.mat.Y.EBV_hg004_illumina2x250.dedup.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="99.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.0.mat.Y.EBV_hg004_illumina2x250.dedup.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/illumina2x250_trio_all_to_one/hg002v1.0.mat.Y.EBV_hg004_illumina2x250.dedup.bam" name="Illumina 2x250 HG004" visible="true">
+            <RenderOptions hideSmallIndels="false"/>
+        </Track>
+    </Panel>
+    <Panel height="20" name="FeaturePanel" width="1133">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="true" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.04576043068640646,0.15746971736204576,0.26379542395693134,0.3728129205921938,0.48048452220726784,0.5841184387617766,0.6864064602960969,0.7900403768506057,0.8896366083445492,0.9878869448183042"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
