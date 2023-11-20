@@ -2,7 +2,7 @@
 name: Larger region error report
 description: Report errors in the hg002v1.0 assembly which span more than 50 base pairs
 title: Larger localized issue in the hg002v1.0 assembly
-labels: "v1.0"
+labels: ["v1.0","large_error"]
 body:
 - type: markdown
   attributes:
