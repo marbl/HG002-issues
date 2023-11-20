@@ -21,7 +21,7 @@ body:
 - type: input
   id: Region
   attributes:
-    label: "Issue location in assembly"
+    label: "Issue location in assembly (use format chromosome:start-end, e.g., chr13_MATERNAL:3740148-9625296)"
 - type: textarea
   id: issuedescription
   attributes:
