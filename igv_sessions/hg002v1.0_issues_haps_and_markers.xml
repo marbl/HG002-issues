@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v1.0.fasta" locus="chr10_MATERNAL:124800263-125164313" nextAutoscaleGroup="14" version="8">
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v1.0.fasta" locus="chr21_MATERNAL:11510086-11573450" nextAutoscaleGroup="14" version="8">
     <Resources>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/wigfiles/hifi_revio/hg002v1.0_hifi_revio_3cells.pri.cov.wig" type="wig"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v1.0_k21_hybrid_error.bed" type="bed"/>
@@ -12,11 +12,13 @@
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v1.0_k21_mat_hapmer.bw" type="bw"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/haplotypes/mapping/hg002v1.0.haplotypemapping.pri.wm.sort.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/haplotypes/mapping/hg002v1.0.haplotypemapping.pri.wm.sort.bam" type="bam"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v1.0_k21_pat_hapmer.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.0.1.mnr10.bb" type="bb"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/wigfiles/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.cov.wig" type="wig"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/wigfiles/ont_r10_ul_dorado/hg002v1.0_ont_r10_ul_dorado.pri.cov.wig" type="wig"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/wigfiles/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.issues.bed" type="bed"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/wigfiles/hifi_revio/hg002v1.0_hifi_revio_3cells.pri.issues.bed" type="bed"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.0.microsatellite.GA.128.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.0_submitted_issues.bed" type="bed"/>
     </Resources>
     <Panel height="100" name="DataPanel" width="1133">
         <Track attributeKey="hg002v1.0_ont_r10_duplex.pri.cov.wig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,204,153" fontSize="12" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/wigfiles/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.cov.wig" name="ONT Duplex Pri Covg" renderer="BAR_CHART" visible="true" windowFunction="mean">
@@ -36,7 +38,7 @@
         </Track>
         <Track attributeKey="hg002v1.0_ont_r10_ul_dorado.pri.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;23.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/wigfiles/ont_r10_ul_dorado/hg002v1.0_ont_r10_ul_dorado.pri.issues.bed" name="ONT UL Dorado Pri Issues" visible="true"/>
     </Panel>
-    <Panel height="160" name="DataPanel3" width="1133">
+    <Panel height="168" name="DataPanel3" width="1133">
         <Track attributeKey="v1.0.microsatellite.AT.128.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,0" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.0.microsatellite.AT.128.bw" name="v1.0.microsatellite.AT.128.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
@@ -63,15 +65,17 @@
         <Track attributeKey="hg002v1.0_k21_hybrid_error.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;25.0;255,255,255;0,0,0" fontSize="12" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/hg002v1.0_k21_hybrid_error.bed" name="Error" visible="true"/>
     </Panel>
     <Panel height="101" name="Panel1675957545869" width="1133">
-        <Track attributeKey="hg002v1.0.haplotypemapping.pri.wm.sort.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="12" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/haplotypes/mapping/hg002v1.0.haplotypemapping.pri.wm.sort.bam" name="ALT haplotype" visible="true">
+        <Track attributeKey="hg002v1.0.haplotypemapping.pri.wm.withsimscores.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="7992000" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/haplotypes/mapping/hg002v1.0.haplotypemapping.pri.wm.withsimscores.bb" name="ALT haplotype position" visible="true"/>
+        <Track attributeKey="hg002v1.0.haplotypemapping.pri.wm.sort.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/haplotypes/mapping/hg002v1.0.haplotypemapping.pri.wm.sort.bam" name="ALT haplotype" visible="true">
             <RenderOptions hideSmallIndels="false" showInsertionMarkers="false" smallIndelThreshold="5"/>
         </Track>
-        <Track attributeKey="hg002v1.0.haplotypemapping.pri.wm.withsimscores.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="7992000" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/haplotypes/mapping/hg002v1.0.haplotypemapping.pri.wm.withsimscores.bb" name="hg002v1.0.haplotypemapping.pri.wm.withsimscores.bb" visible="true"/>
     </Panel>
-    <Panel height="40" name="FeaturePanel" width="1133">
+    <Panel height="105" name="FeaturePanel" width="1133">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="12" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="hg002v1.0_submitted_issues.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.0_submitted_issues.bed" name="hg002v1.0_submitted_issues.bed" visible="true"/>
+        <Track attributeKey="v1.0.1.mnr10.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="7168000" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.0.1.mnr10.bb" name="v1.0.1.mnr10.bb" visible="true"/>
     </Panel>
-    <PanelLayout dividerFractions="0.13765182186234817,0.27530364372469635,0.41295546558704455,0.6342780026990553,0.8556005398110661,0.9392712550607287"/>
+    <PanelLayout dividerFractions="0.118508655126498,0.237017310252996,0.355525965379494,0.5858854860186418,0.7336884154460719,0.8535286284953395"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
