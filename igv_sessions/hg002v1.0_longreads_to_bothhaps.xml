@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v1.0.fasta" locus="chr6_MATERNAL:62162400-62167836" nextAutoscaleGroup="3" version="8">
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v1.0.fasta.gz" locus="chr21_MATERNAL:11510086-11573450" nextAutoscaleGroup="3" version="8">
     <Resources>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul_dorado/hg002v1.0_ont_r10_ul_dorado.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul_dorado/hg002v1.0_ont_r10_ul_dorado.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/hifi_revio_3cell/hg002v1.0_hifi_revio_3cells.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/hifi_revio_3cell/hg002v1.0_hifi_revio_3cells.pri.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.0.1.mnr10.bb" type="bb"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul/hg002v1.0_ont_r10_ul.pri.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul/hg002v1.0_ont_r10_ul.pri.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.0_submitted_issues.bed" type="bed"/>
     </Resources>
-    <Panel height="856" name="DataPanel" width="1133">
+    <Panel height="1332" name="DataPanel" width="1133">
         <Track attributeKey="hg002v1.0_ont_r10_ul_dorado.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul_dorado/hg002v1.0_ont_r10_ul_dorado.bam_coverage" name="ONT R10 UL Dorado coverage" snpThreshold="0.2" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="55.0" minimum="0.0" type="LINEAR"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="89.0" minimum="0.0" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg002v1.0_ont_r10_ul_dorado.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul_dorado/hg002v1.0_ont_r10_ul_dorado.bam" name="ONT R10 Dorado UL ~41x haploid coverage" visible="true">
             <RenderOptions hideSmallIndels="false"/>
         </Track>
     </Panel>
-    <Panel height="884" name="Panel1697386390881" width="1133">
+    <Panel height="1122" name="Panel1697386390881" width="1133">
         <Track attributeKey="hg002v1.0_hifi_revio_3cells.pri.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/hifi_revio_3cell/hg002v1.0_hifi_revio_3cells.pri.bam_coverage" name="HiFi Revio coverage" snpThreshold="0.2" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="53.0" minimum="0.0" type="LINEAR"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="74.0" minimum="0.0" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg002v1.0_hifi_revio_3cells.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/hifi_revio_3cell/hg002v1.0_hifi_revio_3cells.pri.bam" name="HiFi Revio (3 cells) ~50x haploid coverage" visible="true">
             <RenderOptions hideSmallIndels="false"/>
         </Track>
     </Panel>
-    <Panel height="786" name="Panel1689362263110" width="1133">
+    <Panel height="702" name="Panel1689362263110" width="1133">
         <Track attributeKey="hg002v1.0_ont_r10_duplex.pri.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.bam_coverage" name="ONT R10 duplex coverage" snpThreshold="0.2" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="45.0" minimum="0.0" type="LINEAR"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="44.0" minimum="0.0" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg002v1.0_ont_r10_duplex.pri.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.bam_junctions" maxdepth="50" name="hg002v1.0_ont_r10_duplex.pri.bam Junctions" visible="false"/>
         <Track attributeKey="hg002v1.0_ont_r10_duplex.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_duplex/hg002v1.0_ont_r10_duplex.pri.bam" name="ONT R10 duplex ~38x haploid covg" visible="true">
             <RenderOptions hideSmallIndels="false"/>
         </Track>
     </Panel>
-    <Panel height="828" name="Panel1689372760739" width="1133">
+    <Panel height="674" name="Panel1689372760739" width="1133">
         <Track attributeKey="hg002v1.0_ont_r10_ul.pri.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul/hg002v1.0_ont_r10_ul.pri.bam_coverage" name="ONT R10 UL coverage" snpThreshold="0.2" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="51.0" minimum="0.0" type="LINEAR"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="38.0" minimum="0.0" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg002v1.0_ont_r10_ul.pri.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul/hg002v1.0_ont_r10_ul.pri.bam_junctions" maxdepth="50" name="hg002v1.0_ont_r10_ul.pri.bam Junctions" visible="false"/>
         <Track attributeKey="hg002v1.0_ont_r10_ul.pri.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul/hg002v1.0_ont_r10_ul.pri.bam" name="ONT R10 UL ~41x haploid covg" visible="true">
             <RenderOptions hideSmallIndels="false"/>
         </Track>
     </Panel>
-    <Panel height="20" name="Panel1697232821402" width="1133">
-        <Track attributeKey="hg002v1.0_ont_r10_ul_dorado.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.0/mapping/ont_r10_ul_dorado/hg002v1.0_ont_r10_ul_dorado.bam_junctions" maxdepth="50" name="hg002v1.0_ont_r10_ul_dorado.bam Junctions" visible="false"/>
-    </Panel>
-    <Panel height="20" name="FeaturePanel" width="1133">
+    <Panel height="92" name="FeaturePanel" width="1133">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="true" visible="true"/>
+        <Track attributeKey="v1.0.1.mnr10.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="7168000" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.0.1.mnr10.bb" name="v1.0.1.mnr10.bb" visible="true"/>
+        <Track attributeKey="hg002v1.0_submitted_issues.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.0_submitted_issues.bed" name="hg002v1.0_submitted_issues.bed" visible="true"/>
     </Panel>
-    <PanelLayout dividerFractions="0.23616734143049933,0.4898785425101215,0.747638326585695,0.9581646423751687,0.9865047233468286"/>
+    <PanelLayout dividerFractions="0.23367697594501718,0.46735395189003437,0.7010309278350515,0.8333333333333334"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
