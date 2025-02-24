@@ -1,8 +1,8 @@
 ---
 name: Small error report
-description: Report errors in the hg002v1.0 assembly which span just a few bases
-title: Localized issue in the hg002v1.0 assembly
-labels: ["v1.0","small_error"]
+description: Report errors in the hg002v1.1 assembly which span just a few bases
+title: Localized issue in the hg002v1.1 assembly
+labels: ["v1.1","small_error"]
 body:
 - type: markdown
   attributes:
@@ -10,7 +10,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to share your observations about the HG002 v1.0 Q100 assembly. Before submitting an issue, please check to be sure it isn't already in our VCF file of issues that are already scheduled to be applied, or our VCF of submitted issues to be evaluated. Both of these VCFs are displayed as tracks in our UCSC browser assembly hub [here](http://genome.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/HG002_Q100/hub.txt). 
+      Thanks for taking the time to share your observations about the HG002 v1.1 Q100 assembly. Before submitting an issue, please check to be sure it isn't already in our VCF file of issues that are already scheduled to be applied, or our VCF of submitted issues to be evaluated. Both of these VCFs are displayed as tracks in our UCSC browser assembly hub [here](http://genome.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/HG002_Q100/hub.txt). 
 - type: checkboxes
   id: checkedexisting
   attributes:
