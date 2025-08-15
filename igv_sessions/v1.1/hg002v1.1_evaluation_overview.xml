@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg002v1.1" locus="chr12_PATERNAL:0-133573713" nextAutoscaleGroup="9" version="8">
+    <Resources>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues.v3.bb" type="bb"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.pat.hapmer.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.cov.wig" type="wig"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/VDJregions/HG002.VDJ.lifted_to_v1.1.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.AT.128.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.mat.hapmer.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/nucflag_freq_1st.cov.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/hg002v1.1_ont_q28_lc24.cov.wig" type="wig"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.GA.128.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/nucflag_freq_1st.cov.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/hg002v1.1_ont_q28_lc24.issues.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/illumina2x250/hg002v1.1_illumina_2x250_hg002.dedup.tdf" type="tdf"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/nucflag_freq_2nd.cov.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.TC.128.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/nucflag_freq_2nd.cov.bw" type="bw"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/element_nist_ultraq_jun2024/hg002v1.1_element_hg002_ultraq_jun2024.dedup.tdf" type="tdf"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.GC.128.bw" type="bw"/>
+    </Resources>
+    <Panel height="676" name="DataPanel" width="1476">
+        <Track attributeKey="hg002v1.1_k31_ilmn.mat.hapmer.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,102,102" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.mat.hapmer.bw" name="hg002v1.1_k31_ilmn.mat.hapmer.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="31.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.1_k31_ilmn.pat.hapmer.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,102,204" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.pat.hapmer.bw" name="hg002v1.1_k31_ilmn.pat.hapmer.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="31.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.1_issues.v3.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="2147483647" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues.v3.bb" name="Issues v3" visible="true"/>
+        <Track attributeKey="hg002v1.1_element_hg002_ultraq_jun2024.dedup.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="102,204,0" fontSize="14" height="80" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/element_nist_ultraq_jun2024/hg002v1.1_element_hg002_ultraq_jun2024.dedup.tdf" name="Element UltraQ Std 2024June" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.1_illumina_2x250_hg002.dedup.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,204,102" fontSize="14" height="80" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/illumina2x250/hg002v1.1_illumina_2x250_hg002.dedup.tdf" name="illumina HiSeq2500 2x250" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="14" id="d855ef0d-8074-4c2d-8f64-20661add314e" name="PB HiFi+SPRQ" visible="true">
+            <Track altColor="255,153,204" attributeKey="PB_HiFi_SPRQ Cov" autoScale="false" color="255,153,204" fontSize="14" height="80" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.cov.wig" name="PB_HiFi_SPRQ Cov" renderer="BAR_CHART" visible="true" windowFunction="max"/>
+            <Track altColor="51,51,51" attributeKey="nucflag_freq_1st.cov.bw" autoScale="false" color="51,51,51" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/nucflag_freq_1st.cov.bw" name="nucflag_freq_1st.cov.bw" renderer="SCATTER_PLOT" visible="true" windowFunction="max"/>
+            <Track altColor="204,0,0" attributeKey="nucflag_freq_2nd.cov.bw" autoScale="false" color="204,0,0" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/nucflag_freq_2nd.cov.bw" name="nucflag_freq_2nd.cov.bw" renderer="SCATTER_PLOT" visible="true" windowFunction="max"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="160.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.1_pb_hifi_sprq.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;11.0;255,255,255;0,0,178" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.issues.bed" name="PB HiFi+SPRQ Issues" visible="true"/>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="14" id="f2fee32a-2e02-48f7-b354-5b8104f32f76" name="ONT UL q28+lc28" visible="true">
+            <Track altColor="153,204,255" attributeKey="ONT_Q28_LC24 Cov" autoScale="false" color="153,204,255" fontSize="14" height="80" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/hg002v1.1_ont_q28_lc24.cov.wig" name="ONT_Q28_LC24 Cov" renderer="BAR_CHART" visible="true" windowFunction="max"/>
+            <Track altColor="51,51,51" attributeKey="nucflag_freq_1st.cov.bw" autoScale="false" color="51,51,51" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/nucflag_freq_1st.cov.bw" name="nucflag_freq_1st.cov.bw" renderer="SCATTER_PLOT" visible="true" windowFunction="max"/>
+            <Track altColor="204,0,0" attributeKey="nucflag_freq_2nd.cov.bw" autoScale="false" color="0,102,255" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/nucflag_freq_2nd.cov.bw" name="nucflag_freq_2nd.cov.bw" renderer="SCATTER_PLOT" visible="true" windowFunction="max"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg002v1.1_ont_q28_lc24.issues.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;13.0;255,255,255;0,0,178" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/hg002v1.1_ont_q28_lc24.issues.bed" name="ONT UL q28+lc24 Issues" visible="true"/>
+        <Track attributeKey="CenSat v2.0" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;182.0;255,255,255;0,0,178" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/hg002v1.1.cenSatv2.0.noheader.bed" name="CenSat v2.0" visible="true"/>
+    </Panel>
+    <Panel height="629" name="FeaturePanel" width="1476">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="14" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="JHU LiftOff v0.4" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="155713110" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.4/HG002v110.JHU.v0.4.bb" name="JHU LiftOff v0.4" visible="true"/>
+        <Track attributeKey="v1.1.microsatellite.GA.128.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.GA.128.bw" name="v1.1.microsatellite.GA.128.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v1.1.microsatellite.TC.128.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.TC.128.bw" name="v1.1.microsatellite.TC.128.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v1.1.microsatellite.AT.128.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.AT.128.bw" name="v1.1.microsatellite.AT.128.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="v1.1.microsatellite.GC.128.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/microsatellites/v1.1.microsatellite.GC.128.bw" name="v1.1.microsatellite.GC.128.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="HG002.VDJ.lifted_to_v1.1.bed" clazz="org.broad.igv.track.FeatureTrack" color="102,102,102" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/VDJregions/HG002.VDJ.lifted_to_v1.1.bed" name="IG/TCR - V(D)J" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.5167682926829268"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
