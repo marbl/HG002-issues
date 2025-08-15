@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="hg002v1.1" locus="chr1_MATERNAL:842926-883752" nextAutoscaleGroup="6" version="8">
+<Session genome="hg002v1.1" locus="chr1_MATERNAL:842925-883752" nextAutoscaleGroup="6" version="8">
     <Resources>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.pat.hapmer.bw" type="bw"/>
-        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.mat.hapmer.bw" type="bw"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_sprq_elmt_hybrid.error.bed" type="bed"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.mat.hapmer.bw" type="bw"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/element_nist_ultraq_jun2024/hg002v1.1_element_hg002_ultraq_jun2024.dedup.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/element_nist_ultraq_jun2024/hg002v1.1_element_hg002_ultraq_jun2024.dedup.bam" type="bam"/>
-        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.bam" type="bam"/>
         <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/hg002v1.1_ont_q28_lc24.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/hg002v1.1_ont_q28_lc24.bam" type="bam"/>
+        <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues.v3.bb" type="bb"/>
+        <Resource index="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.bam.bai" path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.bam" type="bam"/>
     </Resources>
-    <Panel height="153" name="DataPanel" width="1447">
+    <Panel height="97" name="DataPanel" width="1476">
         <Track attributeKey="hg002v1.1_k31_ilmn.mat.hapmer.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,102,102" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.mat.hapmer.bw" name="hg002v1.1_k31_ilmn.mat.hapmer.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="31.0" minimum="0.0" type="LINEAR"/>
         </Track>
@@ -16,7 +17,7 @@
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="31.0" minimum="0.0" type="LINEAR"/>
         </Track>
     </Panel>
-    <Panel height="1134" name="Panel1749663512511" width="1447">
+    <Panel height="1134" name="Panel1749663512511" width="1476">
         <Track attributeKey="hg002v1.1_element_hg002_ultraq_jun2024.dedup.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/element_nist_ultraq_jun2024/hg002v1.1_element_hg002_ultraq_jun2024.dedup.bam_coverage" name="hg002v1.1_element_hg002_ultraq_jun2024.dedup.bam Coverage" snpThreshold="0.2" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
@@ -25,7 +26,7 @@
             <RenderOptions duplicatesOption="FILTER" showAllBases="false" sortOption="STRAND"/>
         </Track>
     </Panel>
-    <Panel height="1293" name="Panel1751385475352" width="1447">
+    <Panel height="1293" name="Panel1751385475352" width="1476">
         <Track attributeKey="hg002v1.1_pb_hifi_sprq.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/pb_hifi_sprq/hg002v1.1_pb_hifi_sprq.bam_coverage" name="hg002v1.1_pb_hifi_sprq.bam Coverage" snpThreshold="0.2" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="160.0" minimum="0.0" type="LINEAR"/>
         </Track>
@@ -34,7 +35,7 @@
             <RenderOptions duplicatesOption="FILTER" groupByOption="READ_GROUP" invertGroupSorting="true" sortOption="START"/>
         </Track>
     </Panel>
-    <Panel height="635" name="Panel1751595437037" width="1447">
+    <Panel height="635" name="Panel1751595437037" width="1476">
         <Track attributeKey="hg002v1.1_ont_q28_lc24.bam Coverage" autoScale="false" clazz="org.broad.igv.sam.CoverageTrack" fontSize="14" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_q28_lc24/hg002v1.1_ont_q28_lc24.bam_coverage" name="hg002v1.1_ont_q28_lc24.bam Coverage" snpThreshold="0.2" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="80.0" minimum="0.0" type="LINEAR"/>
         </Track>
@@ -43,13 +44,14 @@
             <RenderOptions duplicatesOption="FILTER" groupByOption="READ_GROUP" sortOption="STRAND"/>
         </Track>
     </Panel>
-    <Panel height="133" name="FeaturePanel" width="1447">
-        <Track attributeKey="hg002v1.1_k31_sprq_elmt_hybrid.error.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_sprq_elmt_hybrid.error.bed" name="hg002v1.1_k31_sprq_elmt_hybrid.error.bed" visible="true"/>
+    <Panel height="195" name="FeaturePanel" width="1476">
+        <Track attributeKey="hg002v1.1_k31_sprq_elmt_hybrid.error.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;97.0;255,255,255;0,0,178" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_sprq_elmt_hybrid.error.bed" name="hg002v1.1_k31_sprq_elmt_hybrid.error.bed" visible="true"/>
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="14" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="hg002v1.1_issues.v3.bb" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="2147483647" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues.v3.bb" name="hg002v1.1_issues.v3.bb" visible="true"/>
         <Track attributeKey="CenSat v2.0" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;182.0;255,255,255;0,0,178" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/hg002v1.1.cenSatv2.0.noheader.bed" name="CenSat v2.0" visible="true"/>
-        <Track attributeKey="JHU LiftOff v0.4" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="155713110" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.4/HG002v110.JHU.v0.4.bb" name="JHU LiftOff v0.4" visible="true"/>
+        <Track attributeKey="JHU LiftOff v0.5" clazz="org.broad.igv.track.FeatureTrack" featureVisibilityWindow="155677957" fontSize="14" groupByStrand="false" id="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.5/HG002v110.JHU.v0.5.bb" name="JHU LiftOff v0.5" visible="true"/>
     </Panel>
-    <PanelLayout dividerFractions="0.08727477477477477,0.24042792792792791,0.5720720720720721,0.9222972972972973"/>
+    <PanelLayout dividerFractions="0.06996466431095406,0.33286219081272084,0.5957597173144876,0.8586572438162544"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
