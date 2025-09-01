@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="hg002v1.1" locus="chr1_MATERNAL:842925-883752" nextAutoscaleGroup="6" version="8">
+<Session genome="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/hg002v1.1.fasta.gz" locus="chr1_MATERNAL:842925-883752" nextAutoscaleGroup="6" version="8">
     <Resources>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_ilmn.pat.hapmer.bw" type="bw"/>
         <Resource path="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_sprq_elmt_hybrid.error.bed" type="bed"/>
